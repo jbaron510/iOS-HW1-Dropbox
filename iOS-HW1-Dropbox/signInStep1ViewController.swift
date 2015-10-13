@@ -1,5 +1,5 @@
 //
-//  createAccount2ViewController.swift
+//  signInStep1ViewController.swift
 //  iOS-HW1-Dropbox
 //
 //  Created by Jon Baron on 10/12/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class createAccount2ViewController: UIViewController {
+class signInStep1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,18 +16,21 @@ class createAccount2ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func navBack(sender: AnyObject) {
+
+        // Return to the previous screen in the history
+        
+        navigationController!.popViewControllerAnimated(true)
+        
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func backNav(sender: AnyObject) {
-    
-        //do this when the button is tapped
-        
-        
-    
-    }
 
     /*
     // MARK: - Navigation
