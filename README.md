@@ -1,5 +1,5 @@
 # iOS-HW1-Dropbox
-first homework for into to iOS class
+first homework for intro to iOS class
 
 This took probably a little under 10 hours.
 
