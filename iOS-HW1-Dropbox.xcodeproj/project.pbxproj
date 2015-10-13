@@ -13,6 +13,11 @@
 		C0B9A0191BC5A64500DB6B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B9A0181BC5A64500DB6B1A /* Assets.xcassets */; };
 		C0B9A01C1BC5A64500DB6B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B9A01A1BC5A64500DB6B1A /* LaunchScreen.storyboard */; };
 		C0B9A0271BC5A64500DB6B1A /* iOS_HW1_DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B9A0261BC5A64500DB6B1A /* iOS_HW1_DropboxUITests.swift */; };
+		C0B9A0691BCC20D500DB6B1A /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B9A0681BCC20D500DB6B1A /* signInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C0B9A06B1BCC218800DB6B1A /* createAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B9A06A1BCC218800DB6B1A /* createAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C0B9A06D1BCC2A0F00DB6B1A /* createAccount2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B9A06C1BCC2A0F00DB6B1A /* createAccount2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C0B9A06F1BCC698100DB6B1A /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B9A06E1BCC698100DB6B1A /* settingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C0C7975D1BCC82170057C2FA /* signedInPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7975C1BCC82170057C2FA /* signedInPhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		C0B9A0221BC5A64500DB6B1A /* iOS-HW1-DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-HW1-DropboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B9A0261BC5A64500DB6B1A /* iOS_HW1_DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_HW1_DropboxUITests.swift; sourceTree = "<group>"; };
 		C0B9A0281BC5A64500DB6B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B9A0681BCC20D500DB6B1A /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		C0B9A06A1BCC218800DB6B1A /* createAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAccountViewController.swift; sourceTree = "<group>"; };
+		C0B9A06C1BCC2A0F00DB6B1A /* createAccount2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAccount2ViewController.swift; sourceTree = "<group>"; };
+		C0B9A06E1BCC698100DB6B1A /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		C0C7975C1BCC82170057C2FA /* signedInPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signedInPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 				C0B9A0111BC5A64500DB6B1A /* AppDelegate.swift */,
 				C0B9A0131BC5A64500DB6B1A /* ViewController.swift */,
 				C0B9A0151BC5A64500DB6B1A /* Main.storyboard */,
+				C0C7975C1BCC82170057C2FA /* signedInPhotoViewController.swift */,
+				C0B9A06E1BCC698100DB6B1A /* settingsViewController.swift */,
+				C0B9A06C1BCC2A0F00DB6B1A /* createAccount2ViewController.swift */,
+				C0B9A06A1BCC218800DB6B1A /* createAccountViewController.swift */,
+				C0B9A0681BCC20D500DB6B1A /* signInViewController.swift */,
 				C0B9A0181BC5A64500DB6B1A /* Assets.xcassets */,
 				C0B9A01A1BC5A64500DB6B1A /* LaunchScreen.storyboard */,
 				C0B9A01D1BC5A64500DB6B1A /* Info.plist */,
@@ -196,8 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B9A06B1BCC218800DB6B1A /* createAccountViewController.swift in Sources */,
 				C0B9A0141BC5A64500DB6B1A /* ViewController.swift in Sources */,
+				C0B9A0691BCC20D500DB6B1A /* signInViewController.swift in Sources */,
 				C0B9A0121BC5A64500DB6B1A /* AppDelegate.swift in Sources */,
+				C0B9A06D1BCC2A0F00DB6B1A /* createAccount2ViewController.swift in Sources */,
+				C0B9A06F1BCC698100DB6B1A /* settingsViewController.swift in Sources */,
+				C0C7975D1BCC82170057C2FA /* signedInPhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +405,7 @@
 				C0B9A02D1BC5A64500DB6B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0B9A02E1BC5A64500DB6B1A /* Build configuration list for PBXNativeTarget "iOS-HW1-DropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +414,7 @@
 				C0B9A0301BC5A64500DB6B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
